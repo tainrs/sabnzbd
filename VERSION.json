@@ -1,0 +1,13 @@
+{
+  "description": "Releases",
+  "latest": true,
+  "par2turbo_version": "1.3.0",
+  "test_amd64": true,
+  "test_arm64": true,
+  "test_url": "http://localhost:8080",
+  "upstream_digest_amd64": "",
+  "upstream_digest_arm64": "",
+  "upstream_image": "docker.io/tainrs/base",
+  "upstream_tag": "alpine",
+  "version": "4.5.5"
+}

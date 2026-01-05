@@ -16,10 +16,11 @@ ENV IMAGE_STATS=${IMAGE_STATS} WEBUI_PORTS="8080/tcp,8080/udp"
 
 # Install system dependencies
 # Note: Using Alpine's par2cmdline instead of compiling par2cmdline-turbo for simplicity
+# Using 7zip for RAR extraction (unrar not available in Alpine)
 RUN apk add --no-cache \
     python3 \
     py3-pip \
-    unrar \
+    7zip \
     par2cmdline \
     ca-certificates \
     openssl

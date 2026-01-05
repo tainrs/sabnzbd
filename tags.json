@@ -1,1 +1,14 @@
-{}
+{
+  "release": {
+    "description": "Releases",
+    "hide": false,
+    "last_updated": "2026-01-05T10:58:05.000Z",
+    "last_updated_url": "https://github.com/tainrs/sabnzbd/actions/runs/20713181366",
+    "latest": true,
+    "tags": [
+      "release",
+      "release-4.5.5",
+      "release-4306415"
+    ]
+  }
+}
